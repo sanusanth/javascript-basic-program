@@ -21,7 +21,7 @@ document.getElementById("demo").innerHTML = person.year;
 </script>
 <br> 
 <center>
-<p> Creater By <b> Sanusanth </b> </p>
+<p> Creater By <b> Sanusanth </b> </p> 
 </center>
 </body>
 </html>
