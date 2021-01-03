@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript break</h2>
+
+<p id="demo"></p>
+
+<script>
+var cars = ["BMW", "Volvo", "Saab", "Ford"];
+var text = "";
+
+list: {
+  text += cars[0] + "<br>"; 
+  text += cars[1] + "<br>"; 
+  break list;
+  text += cars[2] + "<br>"; 
+  text += cars[3] + "<br>"; 
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

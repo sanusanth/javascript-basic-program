@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Errors</h2>
+
+<p>You cannot set the number of significant digits of a number to 500:</p>
+
+<p id="demo">
+
+<script>
+var num = 1;
+try {
+  num.toPrecision(500);
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.name;
+}
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

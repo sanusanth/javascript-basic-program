@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Operators</h2>
+
+<p>x = 5, y = 2, calculate z = x + y, and display z:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 5;
+var y = 2;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+
+<!--
+Operator	Description
++	        Addition
+-	        Subtraction
+*	        Multiplication
+**	        Exponentiation (ES2016)
+/	        Division
+%	        Modulus (Division Remainder)
+++	        Increment
+--	        Decrement
+
+Operator	Example	    Same As
+=	          x = y	     x = y
++=      	x += y	    x = x + y
+-=	        x -= y	    x = x - y
+*=	        x *= y	    x = x * y
+/=	        x /= y	    x = x / y
+%=	        x %= y	    x = x % y
+**=	        x **= y	    x = x ** y
+
+Operator	Description
+==			equal to
+===			equal value and equal type
+!=			not equal
+!==			not equal value or not equal type
+>			greater than
+<			less than
+>=			greater than or equal to
+<=			less than or equal to
+?			ternary operator
+	
+&&	logical and
+||	logical or
+!	logical not
+
+Operator	Description	    			Example	   Same as		      Result		Decimal
+&			AND							5 & 1   	0101 & 0001	       0001		       1
+|			OR							5 | 1		0101 | 0001			0101		   5
+~			NOT							~ 5			 ~0101				1010		   10
+^			XOR							5 ^ 1		 0101 ^ 0001		0100 	       4
+<<	        Zero fill left shift		5 << 1		0101 << 1			1010		   10
+>>			Signed right shift			5 >> 1		0101 >> 1			0010	 	   2
+>>>			Zero fill right shift		5 >>> 1		0101 >>> 1			0010	 	   2
+//-->
+
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

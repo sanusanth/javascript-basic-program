@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Numbers</h2>
+
+<p>Numbers can be written with or without decimals:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 3.14;
+var y = 3;
+document.getElementById("demo").innerHTML = x + "<br>" + y;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

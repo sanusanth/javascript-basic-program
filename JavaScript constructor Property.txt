@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The JavaScript constructor Property</h2>
+
+<p>The constructor property returns the constructor function for a variable or an 
+object.</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 
+  "john".constructor + "<br>" +
+  (3.14).constructor + "<br>" +
+  false.constructor + "<br>" +
+  [1,2,3,4].constructor + "<br>" +
+  {name:'john', age:34}.constructor + "<br>" +
+  new Date().constructor + "<br>" +
+  function () {}.constructor;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
+
+

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Object Method</h2>
+
+<p>Object data can be accessed using property stored as a function.</p>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+var person = {
+  firstName: "Sanu",
+  lastName : "santh",
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+// Display data from the object using a method:
+document.getElementById("demo").innerHTML = person.fullName();
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The JavaScript String() Method</h2>
+
+<p>The String() method can convert a number to a string.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 123;
+document.getElementById("demo").innerHTML =
+  String(x) + "<br>" +
+  String(123) + "<br>" +
+  String(100 + 23);
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
