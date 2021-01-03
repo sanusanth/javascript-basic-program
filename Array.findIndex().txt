@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array.findIndex()</h2>
+
+<p id="demo"></p>
+
+<script>
+var numbers = [4, 9, 16, 25, 29];
+var first = numbers.findIndex(myFunction);
+
+document.getElementById("demo").innerHTML = "First number over 18 has index " + first;
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

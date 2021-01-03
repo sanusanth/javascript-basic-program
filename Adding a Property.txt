@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Object.defineProperty()</h2>
+
+<p>This example adds a new property to an object.</p>
+
+<p id="demo"></p>
+
+<script>
+// Create an object:
+var person = {
+  firstName: "Sanu",
+  lastName : "santh",
+  language : "EN"
+};
+// Add a property
+Object.defineProperty(person, "year", {value:"2008"})
+document.getElementById("demo").innerHTML = person.year;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

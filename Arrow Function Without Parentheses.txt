@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrow Function</h2>
+
+<p>This example shows that if you have only one parameter in an Arrow Function, you can skip the parentheses.</p>
+
+<p id="demo"></p>
+
+<script>
+var hello;
+
+hello = val => "Hello " + val;
+
+document.getElementById("demo").innerHTML = hello("Universe!");
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

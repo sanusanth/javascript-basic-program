@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Comparison</h2>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 2 < 12;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

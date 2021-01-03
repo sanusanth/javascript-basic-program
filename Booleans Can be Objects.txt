@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Never create booleans as objects.</p>
+<p>Booleans and objects cannot be safely compared.</p>
+
+<p id="demo"></p>
+
+<script>
+var x = false;         // x is a boolean
+var y = new Boolean(false);  // y is an object
+document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

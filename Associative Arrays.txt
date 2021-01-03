@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p id="demo"></p>
+
+<script>
+var person = [];
+person[0] = "Sanu";
+person[1] = "santh";
+person[2] = 23; 
+document.getElementById("demo").innerHTML =
+person[0] + " " + person.length;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Converting false to other types:</p>
+
+<p id="demo" style="font-family:courier"></p>
+
+<script>
+var x = false;
+document.getElementById("demo").innerHTML =
+"Number : " + Number(x) + "<br>" +
+"String : " + String(x) + "<br>" +
+"Boolean: " + Boolean(x);
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
+
+

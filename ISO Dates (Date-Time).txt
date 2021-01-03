@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript ISO Dates</h2>
+
+<p>Separate date and time with a capital T.</p>
+
+<p>Indicate UTC time with a capital Z.</p>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date("2015-03-25T12:00:00Z");
+document.getElementById("demo").innerHTML = d;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

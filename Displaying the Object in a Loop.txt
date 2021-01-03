@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Display Object Properties</h2>
+
+<p id="demo"></p>
+
+<script>
+var x, txt = "";
+var person = {name:"Sanus", age:50, city:"New York"};
+
+for (x in person) {
+  txt += person[x] + " ";
+};
+
+document.getElementById("demo").innerHTML = txt;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

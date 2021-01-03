@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array.lastIndexOf()</h2>
+
+
+<p id="demo"></p>
+
+<script>
+var fruits = ["Apple", "Orange", "Apple", "Mango"];
+var a = fruits.lastIndexOf("Apple");
+document.getElementById("demo").innerHTML = "Apple is found in position " + (a + 1);
+</script>
+
+<p>The lastIndexOf() does not work in Internet Explorer 8 and earlier versions.</p>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
