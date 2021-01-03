@@ -14,7 +14,7 @@ var pos = str.indexOf("locate");
 document.getElementById("demo").innerHTML = pos;
 </script>
 <br> 
-<center>
+<center> 
 <p> Creater By <b> Sanusanth </b> </p>
 </center>
 </body>
