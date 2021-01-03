@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
 <body>
 
 <h2>JavaScript Arrays</h2>
