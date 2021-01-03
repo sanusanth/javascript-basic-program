@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Number Object Properties</h2>
+
+<p>Using a Number property on a variable, expression, or value, will return undefined:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 6;
+document.getElementById("demo").innerHTML = x.MAX_VALUE;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

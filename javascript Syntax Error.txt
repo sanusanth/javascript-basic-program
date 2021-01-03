@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Errors</h2>
+
+<p>You cannot evaluate code that contains a syntax error:</p>
+
+<p id="demo"></p>
+
+<script>
+try {
+  eval("alert('Hello)");
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.name;
+}
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

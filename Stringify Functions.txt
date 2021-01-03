@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Display Objects</h2>
+
+<p>JSON.stringify will not stringify functions:</p>
+
+<p id="demo"></p>
+
+<script>
+var person = {name:"Sanus", age:function () {return 30;}};
+
+var myString = JSON.stringify(person);
+document.getElementById("demo").innerHTML = myString;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

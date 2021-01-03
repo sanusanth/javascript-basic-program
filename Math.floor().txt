@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2> JavaScript Math.floor() <h2>
+
+<p> Math.floor(x) returns the value of x (rounded strongdownstrong to its nearest integer) <p>
+
+<p id="demo"> <p>
+
+<script>
+document.getElementById(demo).innerHTML = Math.floor(4.7);
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

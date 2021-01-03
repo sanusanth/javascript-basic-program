@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Array Methods</h2>
+
+<h2>concat()</h2>
+
+<p>The concat() method can also merge string values to arrays:</p>
+
+<p id="demo"></p>
+
+<script>
+var arr1 = ["Emil", "Tobias", "Linus"];
+var myChildren = arr1.concat("Sanus"); 
+document.getElementById("demo").innerHTML = myChildren;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
