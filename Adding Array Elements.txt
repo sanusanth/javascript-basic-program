@@ -21,7 +21,7 @@ function myFunction() {
 </script>
 <br> 
 <center>
-<p> Creater By <b> Sanusanth </b> </p>
+<p> Creater By <b> Sanusanth </b> </p> 
 </center>
 </body>
 </html>
