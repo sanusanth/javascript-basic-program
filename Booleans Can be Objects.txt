@@ -16,6 +16,6 @@ document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
 <center>
 <p> Creater By <b> Sanusanth </b> </p>
 </center>
-</body>
+</body> 
 </html>
  
