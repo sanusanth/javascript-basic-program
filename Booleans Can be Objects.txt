@@ -18,3 +18,4 @@ document.getElementById("demo").innerHTML = typeof x + "<br>" + typeof y;
 </center>
 </body>
 </html>
+ 
