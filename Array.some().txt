@@ -16,7 +16,7 @@ document.getElementById("demo").innerHTML = "Some over 18 is " + someOver18;
 
 function myFunction(value, index, array) {
   return value > 18;
-}
+} 
 </script>
 <br> 
 <center>
