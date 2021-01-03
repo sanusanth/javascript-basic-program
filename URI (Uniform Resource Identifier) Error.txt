@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Errors</h2>
+
+<p>Some characters cannot be decoded with decodeURI():</p>
+
+<p id="demo"></p>
+
+<script>
+try {
+  decodeURI("%%%");
+}
+catch(err) {
+  document.getElementById("demo").innerHTML = err.name;
+}
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

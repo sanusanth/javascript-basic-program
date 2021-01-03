@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Regular Expressions</h2>
+
+<p>Search a string for "w3Schools", and display the position of the match:</p>
+
+<p id="demo"></p>
+
+<script>
+var str = "Visit W3Schools!"; 
+var n = str.search(/w3Schools/i);
+document.getElementById("demo").innerHTML = n;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
+

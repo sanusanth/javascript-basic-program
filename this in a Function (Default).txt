@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The JavaScript <i>this</i> Keyword</h2>
+
+<p>In this example, <b>this</b> represents the object that "owns" myFunction:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = myFunction();
+function myFunction() {
+  return this;
+}
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

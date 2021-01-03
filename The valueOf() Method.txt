@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Number Methods</h2>
+
+<p>The valueOf() method returns a number as a number:</p>
+
+<p id="demo"></p>
+
+<script>
+var x = 123;
+
+document.getElementById("demo").innerHTML = 
+  x.valueOf() + "<br>" +
+  (123).valueOf() + "<br>" +
+  (100 + 23).valueOf();
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

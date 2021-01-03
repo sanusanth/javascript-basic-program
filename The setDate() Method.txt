@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript setDate()</h2>
+
+<p>The setDate() method sets the day of a date object:</p>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+d.setDate(15);
+document.getElementById("demo").innerHTML = d;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>

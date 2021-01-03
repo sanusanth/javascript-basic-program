@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript setSeconds()</h2>
+
+<p>The setSeconds() method sets the seconds of a date object (0-59):</p>
+
+<p id="demo"></p>
+
+<script>
+var d = new Date();
+d.setSeconds(30);
+document.getElementById("demo").innerHTML = d;
+</script>
+<br> 
+<center>
+<p> Creater By <b> Sanusanth </b> </p>
+</center>
+</body>
+</html>
