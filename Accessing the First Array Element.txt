@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body> 
 
 <h2>JavaScript Arrays</h2>
 
