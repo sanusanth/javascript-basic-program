@@ -35,7 +35,7 @@ Operator	Example	    Same As
 %=	        x %= y	    x = x % y
 **=	        x **= y	    x = x ** y
 
-Operator	Description
+Operator	        Description
 ==			equal to
 ===			equal value and equal type
 !=			not equal
@@ -49,20 +49,21 @@ Operator	Description
 &&	logical and
 ||	logical or
 !	logical not
-
-Operator	Description	    			Example	   Same as		      Result		Decimal
-&			AND							5 & 1   	0101 & 0001	       0001		       1
-|			OR							5 | 1		0101 | 0001			0101		   5
-~			NOT							~ 5			 ~0101				1010		   10
-^			XOR							5 ^ 1		 0101 ^ 0001		0100 	       4
-<<	        Zero fill left shift		5 << 1		0101 << 1			1010		   10
->>			Signed right shift			5 >> 1		0101 >> 1			0010	 	   2
->>>			Zero fill right shift		5 >>> 1		0101 >>> 1			0010	 	   2
+ 
+Operator	Description	    			Example	         Same as		      Result		     Decimal
+&        	   AND					5 & 1   	0101 & 0001	                0001		       1
+|	           OR				        5 | 1           0101 | 0001			0101		       5
+~		   NOT					~ 5		 ~0101				1010		      10
+^		   XOR					5 ^ 1		 0101 ^ 0001	         	0100 	               4
+<<	        Zero fill left shift		        5 << 1		  0101 << 1			1010		       10
+>>		Signed right shift			5 >> 1		0101 >> 1			0010	 	        2
+>>>		Zero fill right shift	         	5 >>> 1		0101 >>> 1			0010	 	        2
 //-->
 
 <br> 
 <center>
 <p> Creater By <b> Sanusanth </b> </p>
+<a href="https://github.com/sanusanth">Visit Sanusanth</a>
 </center>
 </body>
 </html>
