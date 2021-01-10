@@ -12,6 +12,7 @@ and 9 (both included):</p>
 <p id="demo"></p>
 
 <script>
+
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
