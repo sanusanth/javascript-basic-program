@@ -11,7 +11,7 @@
 <script>
 // Create an object:
 var person = {
-  firstName: "Sanu",
+  firstName: "Sanu", 
   lastName : "santh",
   language : "EN"
 };
